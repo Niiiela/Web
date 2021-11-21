@@ -1,0 +1,133 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 228, 228);
+    color: white;
+    margin: 0;
+}
+
+.prin
+{
+    background-image: url('../img/papel.jpg');
+    height: 650px;
+    background-position: right center;
+    background-size: cover;
+    border: 1px solid transparent;
+}
+
+.prin nav ul
+{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.prin nav li
+{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.prin nav a
+{
+    background: rgba(238, 228, 228, 0.1);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px ; /*Espaço entre as letras*/
+}
+
+.prin nav a:hover
+{
+    background: rgba(238, 228, 228, 0.7);
+}
+
+.txt
+{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.txt h1
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 3px 2px rgb(12, 6, 10);
+}
+
+.txt p
+{
+    background-color: rgba(238, 228, 228, 0.4);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+main
+{
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+
+.m{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card
+{
+    width: 30%;
+    float: left;
+}
+.card p 
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+.card1, .card2
+{
+    margin-right: 1%;
+}
+.texto h2
+{
+    padding-left: 4px;
+    background-color: #ccc;
+    padding: 10px;
+    font-size: 25px;
+}
+.texto p
+{
+    font-size: 20px;
+}
+.rod
+{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    height: 50px;
+    background: #d4cece;
+    text-shadow: 3px 2px 2px black;
+
+}
+.rod p
+{
+    padding: 15px;
+}
